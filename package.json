@@ -1,7 +1,7 @@
 {
   "name": "maogym",
   "private": true,
-  "homepage": "https://matei87.github.io/Maogym/",
+  "homepage": "https://matei87.github.io/maogym/",
   "version": "0.1.0",
   "type": "module",
   "scripts": {
