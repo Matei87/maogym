@@ -1,0 +1,16 @@
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.logo .dot {
+  width: 1rem;
+  height: 1rem;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  left: 5px;
+}
