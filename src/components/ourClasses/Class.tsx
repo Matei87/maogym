@@ -12,7 +12,7 @@ const Class: FC<ClassTypeProps> = ({
     opacity-0 transition duration-500 hover:opacity-90 hover:cursor-pointer`;
 
   return (
-    <li className='relative h-[360px] w-[46rem]'>
+    <li className='relative h-[360px] w-[46rem] dark:brightness-[.8]'>
       <div className={overlayStyles}>
         <p className='text-2xl'>{name}</p>
         <p className='mt-5'>{description}</p>

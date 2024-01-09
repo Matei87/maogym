@@ -11,5 +11,8 @@ body,
   height: 100%;
   width: 100%;
   font-family: 'DM Sans', sans-serif;
-  @apply text-gray-500;
+}
+
+html * {
+  @apply transition-colors delay-0 duration-300 ease-in-out;
 }

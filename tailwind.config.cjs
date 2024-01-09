@@ -1,9 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
+        'dark-80': '#27272a',
+        'gray-10': '#e2e2e2',
         'gray-20': '#F8F4EB',
         'gray-50': '#EFE6E6',
         'gray-100': '#DFCCCC',
@@ -13,6 +16,9 @@ module.exports = {
         'primary-500': '#FF6B66',
         'secondary-400': '#FFCD5B',
         'secondary-500': '#FFC132',
+      },
+      brightness: {
+        80: '.8',
       },
       backgroundImage: (theme) => ({
         'gradient-yellowred':

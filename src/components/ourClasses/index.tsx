@@ -9,7 +9,10 @@ const OurClasses: FC<SetSelectedPageProp> = ({
   setSelectedPage,
 }: SetSelectedPageProp) => {
   return (
-    <section id='ourclasses' className='w-full bg-primary-100 py-40'>
+    <section
+      id='ourclasses'
+      className='w-full bg-primary-100 py-40 dark:bg-dark-80 dark:text-gray-10'
+    >
       <motion.div
         onViewportEnter={() => setSelectedPage('ourclasses')}
         className='flex flex-col'

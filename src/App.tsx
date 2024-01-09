@@ -23,7 +23,7 @@ const App: FC = () => {
   }, []);
 
   return (
-    <div className='app bg-gray-20'>
+    <div className='app bg-gray-20 text-gray-500 transition-colors duration-1000 dark:text-gray-10'>
       <Navbar
         isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}
