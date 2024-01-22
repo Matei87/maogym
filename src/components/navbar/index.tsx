@@ -63,7 +63,7 @@ const Navbar: FC<SelectedProps> = ({
                     Become a Member
                   </ActionButton>
 
-                  <div className='w-9 h-9 flex justify-center items-center hover:cursor-pointer hover:bg-gray-10 hover:rounded-full hover:transition-all hover:ease-in-out hover:duration-300 '>
+                  <div className='w-9 h-9 flex justify-center items-center rounded-full hover:cursor-pointer hover:rounded-full hover:bg-gray-10 hover:transition-all hover:ease-in-out hover:duration-300'>
                     {theme === 'light' ? (
                       <svg
                         stroke='currentColor'
